@@ -22,7 +22,7 @@ public class CovidStatistics {
         });
         //  Assert.assertEquals(227,deserializeResponse.get("affectedCountries"));
         int affectedcountries = (int) deserializeResponse.get("affectedCountries");
-        Assert.assertEquals(227, affectedcountries);
+        Assert.assertEquals(230, affectedcountries);
 
         System.out.println(deserializeResponse);
 
